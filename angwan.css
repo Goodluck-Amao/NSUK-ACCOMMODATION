@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 20px;
+}
+video{
+    width: 400px;
+}
+@media(max-width:768px){
+    section{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+    }
+}
